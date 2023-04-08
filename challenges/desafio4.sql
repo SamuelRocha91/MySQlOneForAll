@@ -1,0 +1,2 @@
+SELECT CONCAT(u.first_name,' ', u.last_name) AS 'pessoa_usuaria', if(MAX(YEAR(date_view)) >= 2021, 'Ativa', 'Inativa') AS "status_pessoa_usuaria" 
+FROM SpotifyClone.users AS u INNER JOIN SpotifyClone.historic AS h ON h.user_id = u.user_id GROUP BY u.user_id ORDER BY pessoa_usuaria;
