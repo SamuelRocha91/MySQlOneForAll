@@ -58,7 +58,7 @@ CREATE TABLE SpotifyClone.followers(
 ) engine = InnoDB;
 INSERT INTO SpotifyClone.plan (plan_id, name, plane_value)
 VALUES
-  (1, 'gratuito', 0),
+  (1, 'gratuito', 0.00),
   (2, 'familiar', 7.99),
   (3, 'universitário', 5.99),
   (4, 'pessoal', 6.99);
@@ -91,7 +91,7 @@ VALUES
   (5, 'Sandi', 'Metz', 58, 2, '2018-04-29'),
   (6, 'Paulo', 'Freire', 19, 3, '2018-02-14'),
   (7, 'Bell', 'Hooks', 26, 3, '2018-01-05'),
-  (8, 'Christopher', 'Alexander', 85, 3, '2019-06-05'),
+  (8, 'Christopher', 'Alexander', 85, 4, '2019-06-05'),
   (9, 'Judith', 'Butler', 45, 4, '2020-05-13'),
   (10, 'Jorge', 'Amado', 58, 4, '2017-02-17');
   
